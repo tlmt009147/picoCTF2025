@@ -73,6 +73,9 @@ Our mission was to find out the token generated to get the flag. As I said, late
 ```python
 for delta in range(-150, 10):  
 ```
+![](https://github.com/tlmt009147/picoCTF2025/blob/main/RE/Chronohack/1.png)
+
+You can see that the latency was up to 143 seconds at this time I ran.
 
 Script for local test [here](https://github.com/tlmt009147/picoCTF2025/blob/main/RE/Chronohack/local.py).
 
