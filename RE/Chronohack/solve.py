@@ -10,15 +10,9 @@ def get_random(time, length, seed_offset=0):
     random.seed(t + seed_offset)  
     return ''.join(random.choice(alphabet) for _ in range(length))
 
-# Kết nối đến server
-def connect_to_server():
-    host = "verbal-sleep.picoctf.net"
-    port = 49863
-    conn = remote(host, port)  # Kết nối đến server
-    return conn
-
 # Thử đoán token
 def guess_token():
+    # Kết nối đến server
     p = remote("verbal-sleep.picoctf.net", 49863)  
     
     print(p.recvuntil(b"\nEnter your guess for the token (or exit):").decode())  # Đọc thông báo
