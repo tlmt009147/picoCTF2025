@@ -9,5 +9,11 @@ It might be good to analyze source [file](https://challenge-files.picoctf.net/c_
 2. Download the encrypted flag file and the source file and reverse engineer the source file.
 
 ## Write-up
-In short, I took the key and hashed it with sha256, then XOR with the ciphertext in block of 16 bytes.
+In short, I took the key and hashed it with sha256, then XOR with the ciphertext in blocks of 16 bytes.
+
+![](https://github.com/tlmt009147/picoCTF2025/blob/fcb31d556796c0bac1baa17948374ee3c3cba1f9/RE/Tap%20into%20Hash/1.png)
+
+Script to decode is [here](https://github.com/tlmt009147/picoCTF2025/blob/fcb31d556796c0bac1baa17948374ee3c3cba1f9/RE/Tap%20into%20Hash/block_chain_solve.py)
+
 ## Flag
+picoCTF{block_3SRhViRbT1qcX_XUjM0r49cH_qCzmJZzBK_45cd2a52}
