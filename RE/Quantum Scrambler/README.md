@@ -13,10 +13,16 @@ The program's source code can be downloaded [here](https://challenge-files.picoc
 3. Feed in a known plaintext through the scrambler
 
 ## Write-up
-Well this challenge was not hard to solve, I used some tricks to solve it in a few lines by identifying the structure of the nested lists that I just got the first and last element of each
-list and insert those in a new list. 
+Well, this challenge was not hard to solve, I used some tricks to solve it in a few lines by identifying the structure of the nested lists that I just got the first and last element of each list and inserted those in a new list, which was also the flag.
 
+Netcat the program and get the scrambled flag, then throw it in my script and then you get your flag unscrambled.
 
+The script is [here](https://github.com/tlmt009147/picoCTF2025/blob/8a94cd60041f2d3ec1eae2960a5e2ba28005d4d2/RE/Quantum%20Scrambler/scramble.py)
+
+![](https://github.com/tlmt009147/picoCTF2025/blob/8a94cd60041f2d3ec1eae2960a5e2ba28005d4d2/RE/Quantum%20Scrambler/1.png)
+
+## Flag
+picoCTF{python_is_weirdb57142ff}
 
 
 
