@@ -21,7 +21,7 @@ So when I stepped into this function, a bunch of things appeared and I continued
 
 After this part, I just barely wandered around until I saw this. Some variables stored the strings when the program ran.
 
-![](https://github.com/tlmt009147/picoCTF2025/blob/de6968089d0caf9d3298b8204537fff0fa211895/RE/Binary%20Instrumentation%201/5.png)
+![](https://github.com/tlmt009147/picoCTF2025/blob/2bb14485e35a588e8b70c05fe2c6b901cc3724a9/RE/Binary%20Instrumentation%201/5.png)
 
 I believed that the flag must be somewhere near here, so I clicked one of the variables to check the memory stack and I saw the flag stored in a hidden variable in the form of base64 codes.
 
